@@ -1,3 +1,6 @@
+# Local env - install necessary packages
+# pip install fastapi uvicorn
+# to run the program - uvicorn fastapi-helloworld:app --reload
 from fastapi import FastAPI
 from employee import Employee
 
